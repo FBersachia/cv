@@ -2,13 +2,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    background-color: white;
-}
-
 #profile-pic {
     margin-top: 20px;
     width: 150px;
+    border-radius: 15%;
 }
 
 .center {
@@ -28,11 +25,9 @@ section {
 
 h3 {
     text-align: center;
+    color: #a75a1c;
 }
 
-.orange {
-    color: orange;
-}
 
 .rrss {
     width: 50px;
@@ -42,9 +37,24 @@ h4 {
     margin-left: 10px;
 }
 
+
+#qr {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+/* Mobile */
 @media screen and (max-width: 700px) {
+
+    body {
+        background-color: #28272c;
+    }
+
     .container {
         margin: 10px;
+        color: aliceblue;
     }
 
     .section-center {
@@ -57,6 +67,7 @@ h4 {
 
     footer ul {
         display: table;
+        margin: 0 auto;
     }
 
     footer li {
@@ -64,23 +75,46 @@ h4 {
     }
 
     footer li a {
-        margin: 10px;
+        text-decoration: none;
+        color: black;
     }
+
+    .rrss {
+        margin-left: 10%;
+    }
+
+    .mobile-center {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .mobile-center section {
+        text-align: center;
+    }
+
+    .nobull{
+        list-style-type: none;
+        text-align: center;
+    }
+
 }
 
 /*PC*/
 
 @media screen and (min-width: 800px) {
 
-    .portfolio{
+    body {
+        background-color: white;
+    }
+
+    .orange {
+        color: orange;
+    }
+
+    .portfolio {
         margin-top: 20px;
         width: 100%;
         margin-right: auto;
-    }
-
-    #qr{
-        margin-right: auto;
-        margin-left: 35%;
     }
 
     .line {
@@ -136,5 +170,9 @@ h4 {
         padding-left: 20px;
         border-color: white;
         border-radius: 10px;
+    }
+
+    footer h3 {
+        color: black;
     }
 }
