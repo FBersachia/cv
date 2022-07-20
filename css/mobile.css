@@ -1,0 +1,52 @@
+/* Mobile */
+@media screen and (max-width: 700px) {
+
+    body {
+        background-color: #28272c;
+    }
+
+    .container {
+        margin: 10px;
+        color: aliceblue;
+    }
+
+    .section-center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        text-align: center;
+    }
+
+    footer ul {
+        display: table;
+        margin: 0 auto;
+    }
+
+    footer li {
+        display: inline;
+    }
+
+    footer li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .rrss {
+        margin-left: 10%;
+    }
+
+    .mobile-center {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .mobile-center section {
+        text-align: center;
+    }
+
+    .nobull{
+        list-style-type: none;
+        text-align: center;
+    }
+}
